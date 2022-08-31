@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+.container
+{
+    margin-top: 5vh;
+}
+.list
+{
+    width: 90vw;
+    margin: auto;
+    margin-top: 2vh;
+    border: 0.3vh solid #cecece;
+    border-radius: 0.5vw;
+    height: 15vh;
+    cursor: pointer;
+}
+.list h3
+{
+    height: 7vh;
+    padding: 1.5vh;
+
+}
+.list p
+{
+    height: 5vh;
+    padding: 1.5vh;
+    overflow: hidden;
+    width: 90%;
+   
+}
+.div
+{
+    margin: auto;
+    margin-top: 7vh;
+    width: 85vw;
+    border: 0.3vh solid #cecece;
+    border-radius: 1vw;
+    min-height: 60vh;
+    margin-bottom: 8vh;
+}
+.div h2{
+   text-align: center; 
+   margin-top: 4vh;
+}
+.div p
+{
+    margin-top: 8vh;
+    margin-left: 5vh;
+    width: 93%;
+    
+}
+.delete_button
+{
+    margin-left: 50vw;
+    width: 5vw;
+    height: 5vh;
+    background-color: pink;
+    color: white;
+    border-radius: 0.5vw;
+    margin-top: 2vh;
+    border: none;
+    cursor: pointer;
+
+}
+.title
+{
+    margin-left: 30vw;
+    width: 30vw;
+    height: 6vh;
+    margin-top: 10vh;
+   
+   
+}
+.textarea
+{
+    width: 40vw;
+    height: 40vh;
+    margin-top: 1vh;
+    margin-left: 30vw;
+}
+.public_button
+{
+    width: 8vw;
+    height: 5vh;
+    background-color: blueviolet;
+    color: white;
+    border:  none;
+    border-radius: 0.4vh;
+    cursor: pointer;
+    margin-left: 1vw;
+
+}
+.review_input
+{
+    width: 50vw;
+    height: 6vh;
+    margin-left: 20vw;
+}
+.review_button
+{
+    width: 8vw;
+    height: 6vh;
+    background-color: transparent;
+    color: blueviolet;
+    border-radius: 0.4vw;
+    margin-left: 1vw;
+    border: 0.4vh solid #cecece;
+    cursor: pointer;
+   
+}
