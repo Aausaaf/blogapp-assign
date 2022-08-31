@@ -90,12 +90,15 @@ const Navbar = () => {
         <div className="logo" onClick={()=>{
             navigate("/")
         }}>Blog</div>
-         <div className="yourblog" onClick={()=>{
+        {
+          (localStorage.getItem("token"))?<>
+          <div className="yourblog" onClick={()=>{
             navigate("/yourblog")
         }}>Your Blog</div>
          <div className="writestory" onClick={()=>{
             navigate("/writeblog")
-        }}>Write blog</div>
+        }}>Write blog</div></>:""
+        }
          
         <button style={{display:signuphide}} className='signup_nav'
 

@@ -4,9 +4,13 @@ import { useState } from 'react'
 
 const Writeblog = () => {
     const [title,settitle] = useState("")
+
     const [body,setbody] = useState("")
+
     const postdata = (event) => {
+
         event.preventDefault()
+
         if(title.length == 0 )
         {
             alert("Plese fill title")
@@ -27,9 +31,12 @@ const Writeblog = () => {
         }
           
         const handlepost = async() => {
+
             event.preventDefault()
+
             console.log(title, body);
             try {
+
               await fetch(`http://localhost:8080/createpostwithid`, {
                 method: 'POST',
                 headers: {
